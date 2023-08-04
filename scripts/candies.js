@@ -5,7 +5,7 @@ var candies = {
     nbrEaten : 0,
     nbrThrown : 0,
     nbrTotal : 0, // The total number we earned in all times
-    candiesPerSecond : 1000000,
+    candiesPerSecond : 10000000000000,
     
     // Functions
     onload : function(){

@@ -5,7 +5,7 @@ var farm = {
     productionDelayType : "none", // On which delay does the farm product lollipops (day, hour, min, sec...)
     lollipopsPerDay : 0, // How many lollipops the farm produce every day
     lollipopsProduction : 0, // How many lollipops the farm produce every day, hour, min, sec.. depending on the production delay type
-    maxLollipopsPerDay : 8640000000, // = 100000/sec
+    maxLollipopsPerDay : 8640000000000000, // = 
     flagsList : [" ~ ", " * ", "cnd", " ! ", " + ", " ? ", "/|\\"], // List of ascii flags which can appear on the farm
     currentFlagIndex : 0, // Index in the list of the current flag shown
     plantingButtonsStep : 0, // Step of the lollipops planting buttons : (= which buttons are shown, 1000, 100.. ?)

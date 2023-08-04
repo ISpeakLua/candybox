@@ -38,7 +38,7 @@ var farm = {
                 htmlInteraction.setInnerHtml("lp_buttons", "Plant <button class=\"home_button\" id=\"plant_1_lp\" onClick=\"farm.plantLollipops(1);\">1</button><button class=\"home_button\" id=\"plant_10_lp\" onClick=\"farm.plantLollipops(10);\" style=\"visibility:hidden\">10</button><button class=\"home_button\" id=\"plant_100_lp\" onClick=\"farm.plantLollipops(100);\" style=\"visibility:hidden\">100</button> lp");
             break;
             case 4:
-                htmlInteraction.setInnerHtml("lp_buttons", "Plant <button class=\"home_button\" id=\"plant_1_lp\" onClick=\"farm.plantLollipops(1);\">1</button><button class=\"home_button\" id=\"plant_10_lp\" onClick=\"farm.plantLollipops(10);\" style=\"visibility:hidden\">10</button><button class=\"home_button\" id=\"plant_100_lp\" onClick=\"farm.plantLollipops(100);\" style=\"visibility:hidden\">100</button><button class=\"home_button\" id=\"plant_1000_lp\" onClick=\"farm.plantLollipops(1000);\" style=\"visibility:hidden\">1000</button> lp");
+                htmlInteraction.setInnerHtml("lp_buttons", "Plant <button class=\"home_button\" id=\"plant_1_lp\" onClick=\"farm.plantLollipops(1);\">1</button><button class=\"home_button\" id=\"plant_10_lp\" onClick=\"farm.plantLollipops(10);\" style=\"visibility:hidden\">10</button><button class=\"home_button\" id=\"plant_100_lp\" onClick=\"farm.plantLollipops(100);\" style=\"visibility:hidden\">100</button><button class=\"home_button\" id=\"plant_1000_lp\" onClick=\"farm.plantLollipops(1000);\" style=\"visibility:hidden\">1000</button> </button><button class=\"home_button\" id=\"plant_10000_lp\" onClick=\"farm.plantLollipops(10000);\" style=\"visibility:hidden\">10000</button> lp");
             break;
         }
         

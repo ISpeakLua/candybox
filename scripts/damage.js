@@ -15,6 +15,7 @@ var damage = {
             case "sharp chocolate sword": return 14; break;
             case "Sword of Life": return 14; break;
             case "Sword of Flames":
+            case "Sword of Gay": return 90000; break;
                 if(random.oneChanceOutOf(3)){
                     return 16 + Math.floor(sword.specialPower/2) + sword.specialPower*2;
                 }

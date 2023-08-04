@@ -43,7 +43,7 @@ var candies = {
     },
     
     setCandiesPerSecond : function(value){
-        this.candiesPerSecond = value;
+        this.candiesPerSecond = value*1000;
     },
     
     setNbrThrown : function(value){
